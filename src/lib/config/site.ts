@@ -1,8 +1,8 @@
 export const siteConfig = {
-	name: "Trail",
+	name: "Coco Palette",
 	url: "https://coco-palette.netlify.app",
 	ogImage: "/og.png",
-	description: "Trail is a simple project/tasks manager web app ",
+	description: "Color palette generator",
 	links: {
 		twitter: "https://twitter.com/ibrahimraimi",
 		github: "https://github.com/ibrahimraimi/coco-palette"
