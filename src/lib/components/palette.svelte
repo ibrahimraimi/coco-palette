@@ -22,7 +22,7 @@
 	$: oklch = chroma(color).oklch();
 </script>
 
-<div class="border-b bg-white lg:rounded-xl lg:border lg:shadow-sm">
+<div class="border-b bg-white lg:rounded-lg lg:border lg:shadow-sm">
 	<div class="flex items-center justify-between p-2 pb-0 lg:p-3 lg:pb-0">
 		<div class="flex items-center gap-2">
 			<div

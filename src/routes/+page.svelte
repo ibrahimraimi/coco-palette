@@ -1,5 +1,6 @@
 <script lang="ts">
 	import chroma from "chroma-js";
+	import { Drawer } from "vaul-svelte";
 	import { slide } from "svelte/transition";
 
 	import { page } from "$app/stores";
@@ -30,7 +31,7 @@
 	import Eye from "$lib/components/icons/eye.svelte";
 	import EyeClosed from "$lib/components/icons/eye-closed.svelte";
 
-	import bear from "$lib/assets/segg-bear.png";
+	import bear from "$lib/assets/girl.png";
 
 	const config = parser($page.url.searchParams);
 
@@ -101,7 +102,7 @@
 				<Input
 					autocomplete="off"
 					on:focus={() => (invalid = false)}
-					class={cn(invalid && "border-pink-300")}
+					class={cn(invalid && "rounded-xl border-pink-300")}
 					id="color"
 					bind:value={color}
 					placeholder="Type your color"
@@ -110,7 +111,7 @@
 					<span class="text-xs text-pink-500">Invalid color</span>
 				{/if}
 			</div>
-			<Button class="mt-2 w-full" type="submit">Create palette</Button>
+			<Button class="mt-2 w-full rounded-xl" type="submit">Create palette</Button>
 			<span class="mt-2 block text-xs text-gray-400"
 				>Type a valid color in any format to generate a monochromatic palette. It will range from
 				dark to light with the saturation decreasing as it moves away from the base color.</span
@@ -334,7 +335,7 @@
 							<img alt="Illustration of a polar bear" src={bear} />
 						</div>
 						<p>It's so white</p>
-						<p class="text-gray-500">Here's a polar bear</p>
+						<p class="text-gray-500">Hey 👋 I am Coco</p>
 					</div>
 				</div>
 			{/each}
