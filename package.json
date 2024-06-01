@@ -1,5 +1,5 @@
 {
-	"name": "svelte-starter",
+	"name": "coco-palette",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -18,12 +18,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ibrahimraimi/svelte-starter"
+		"url": "https://github.com/ibrahimraimi/coco-palette"
 	},
 	"bugs": {
-		"url": "https://github.com/ibrahimraimi/svelte-starter"
+		"url": "https://github.com/ibrahimraimi/coco-palette"
 	},
-	"homepage": "https://github.com/ibrahimraimi/svelte-starter",
+	"homepage": "https://github.com/ibrahimraimi/coco-palette",
 	"license": "MIT",
 	"devDependencies": {
 		"@melt-ui/svelte": "^0.50.0",
@@ -54,8 +54,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@significa/svelte-ui": "^0.0.34",
 		"clsx": "^2.1.1",
+		"mode-watcher": "^0.3.0",
+		"svelte-sonner": "^0.3.24",
 		"tailwind-merge": "^2.3.0",
 		"tailwind-variants": "^0.2.1"
 	}
