@@ -36,7 +36,7 @@
 		"@typescript-eslint/parser": "^7.0.0",
 		"autoprefixer": "^10.4.16",
 		"chroma-js": "^2.4.2",
-		"eslint": "^8.56.0",
+		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
 		"phosphor-svelte": "^1.3.0",
